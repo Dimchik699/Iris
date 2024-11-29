@@ -1,6 +1,7 @@
-# IrisAI1
-open Powershell in directory and then copy and paste all these commands into terminal (on last command there will be needed to press Enter to start the aplication)
-@@
+# Iris
+откройте Powershell в каталоге, а затем скопируйте и вставьте все эти команды в терминал (при последней команде потребуется нажать Enter, чтобы запустить приложение)
+
+Первоначальная установка:
 
     python -m venv .venv
 
@@ -11,6 +12,8 @@ open Powershell in directory and then copy and paste all these commands into ter
     pip install -r requirements.txt
 
     uvicorn use:app
-@@
 
-then site is hosted at 127.0.0.1:8000
+Дальнейший запуск:
+
+    .venv\Scripts\Activate.Ps1
+    uvicorn use:app
